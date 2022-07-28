@@ -26,7 +26,7 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>2022 © {config.author}. <a href="https://jarodise.com">数字游民部落</a></div>
+      <div className={styles.copyright}>2022 © {config.author}. <a href="https://jarodise.com/">数字游民部落</a></div>
 
       {hasMounted ? (
         <div className={styles.settings}>
@@ -65,11 +65,11 @@ export const Footer: React.FC<{
           </a>
         )}
 
-        {config.instagram && (
+        {config.linkedin && (
           <a
-            className={styles.instagram}
-            href={`https://www.linkedin.com/${config.instagram}`}
-            title={`Instagram ${config.author}`}
+            className={styles.linkedin}
+            href={`https://www.linkedin.com/in/${config.linkedin}`}
+            title={`LinkedIn ${config.author}`}
             target='_blank'
             rel='noopener noreferrer'
           >
