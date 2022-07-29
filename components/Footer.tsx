@@ -26,7 +26,7 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>2022 © {config.author}. <a href="https://jarodise.com/">数字游民部落</a></div>
+      <div className={styles.copyright}>2022 © 数字游民Jarod. <a href="https://jarodise.com/">数字游民部落</a></div>
 
       {hasMounted ? (
         <div className={styles.settings}>
